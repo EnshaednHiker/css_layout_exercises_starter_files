@@ -1,4 +1,43 @@
-div{
-    border: black 1px;
+body {
     width: 800px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0;
+    padding-top: 50px;
+}
+
+.upper-level .box {
+    width: 50%;
+    height: 200px;
+}
+
+.box {
+    border: black 1px;
+    display: inline-block;
+}
+
+.green-box {
+    background-color: green;
+}
+
+.blue-box {
+    background-color: blue;
+}
+
+.lower-level .box {
+    width: 33.3%;
+    height: 300px;
+}
+
+.grey-box {
+    background-color: gray;
+}
+
+.black-box {
+    background-color: black;
+}
+
+.orange-box {
+    background-color: orange;
 }
